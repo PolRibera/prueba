@@ -7,3 +7,5 @@ while numero_inicial > 0:
         print("este numero es par")
     else:
         print("Este numero es impar")
+
+print("he terminado")
