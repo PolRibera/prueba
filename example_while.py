@@ -6,6 +6,6 @@ while numero_inicial > 0:
     if numero_inicial % 2 == 0:
         print("este numero es par")
     else:
-        print("Este numero es impar")
+        print("Este numero es imparo")
 
 print("he terminado")

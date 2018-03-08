@@ -32,7 +32,7 @@ while vida_agente > 0 and vida_enemigo > 0:
    print("El agente {} te hace un ataque de {} de daño".format(agente_elegido, ataque_enemigo))
    vida_agente -= ataque_enemigo
 
-   print("Tiene {} de vida".format(vida_agente))
+   print("Tienes {} de vida".format(vida_agente))
 
 
 
