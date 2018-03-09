@@ -6,6 +6,8 @@ vida_agente=100
 vida_enemigo= 0
 ataque_enemigo= 0
 
+
+
 if agente_elegido == "francotirador":
     vida_enemigo = 75
     nombre_enemigo = "francotirador"
@@ -29,7 +31,7 @@ while vida_agente > 0 and vida_enemigo > 0:
 
    print("La vida de {} ahora es de {}".format(nombre_enemigo, vida_enemigo))
 
-   print("El agente {} te hace un ataque de {} de daño".format(agente_elegido, ataque_enemigo))
+   print("El agente de {} te hace un ataque de {} de daño".format(agente_elegido, ataque_enemigo))
    vida_agente -= ataque_enemigo
 
    print("Tienes {} de vida".format(vida_agente))
@@ -45,4 +47,4 @@ elif vida_agente <= 0:
 
 
 
-print("El combate ha terminado")
+
