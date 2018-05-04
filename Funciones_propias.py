@@ -1,4 +1,4 @@
-def input_con_confirmacion(pregunta):
+def input_con_confirmacion (pregunta):
     confirmacion = False
     dato_usuario= ""
     while not confirmacion:
@@ -12,7 +12,7 @@ nombre = input_con_confirmacion("Com et dius?")
 print ("Et dius {} ".format(nombre))
 
 
-def reverse_string  (string_to_reverse):
+def reverse_string(string_to_reverse):
     string_reversed = ""
     current_index = len(string_to_reverse) - 1
     while current_index >= 0:
